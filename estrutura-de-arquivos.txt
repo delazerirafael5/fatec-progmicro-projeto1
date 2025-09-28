@@ -1,0 +1,20 @@
+/my-project
+|
+├── index.html            # The main landing page
+|
+├── /pages/
+|   ├── about.html
+|   └── contact.html
+|
+├── /assets/              # A general folder for all static assets
+|   ├── /css/
+|   |   └── style.css     # Main stylesheet
+|   |
+|   ├── /js/
+|   |   └── main.js       # Main JavaScript file
+|   |
+|   └── /images/
+|       ├── logo.png
+|       └── hero-banner.jpg
+|
+└── README.md             # Project information
