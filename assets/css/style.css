@@ -1,0 +1,15 @@
+main {
+ display: flex;
+}
+#principal {
+    background-color: rgba(255, 238, 0, 0.129);
+    width: 65%;
+    float: left;
+}
+#secundario {
+    background-color: rgba(232, 232, 232, 0.137);
+    width: 40%;
+    float: right;
+    margin-left: 5px;
+    padding-left: 5px;
+}
