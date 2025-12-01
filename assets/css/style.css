@@ -1,7 +1,7 @@
 /* ID para background da navbar */
 #navbarBgColor {
-background: #197083;
-background: linear-gradient(39deg, rgba(25, 112, 131, 1) 34%, rgba(87, 199, 100, 1) 65%, rgba(25, 112, 131, 1) 84%);
+    background: #197083;
+    background: linear-gradient(39deg, rgba(25, 112, 131, 1) 34%, rgba(87, 199, 100, 1) 65%, rgba(25, 112, 131, 1) 84%);
 
 }
 
@@ -12,32 +12,37 @@ background: linear-gradient(39deg, rgba(25, 112, 131, 1) 34%, rgba(87, 199, 100,
 
 }
 
+.container2 {
+    display: flex;
+    grid-template-columns: 50% 50%;
+}
+
 /* Classe para estilo de elementos da página home */
-.postagem{
+.postagem {
     padding: 10px;
     width: 80%;
     height: 95%;
-    margin: auto; 
-    background-color: #fafbfb; 
+    margin: auto;
+    background-color: #fafbfb;
     text-align: justify;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    
+
 }
-/* Classe para estilo de elementos da página sobre */
-.sobre {
+
+/* Classe para estilo de elementos das páginas */
+.base {
     padding: 10px;
     width: 80%;
     height: 95%;
-    margin: auto; 
-    background-color: #fafbfb; 
+    margin: auto;
+    background-color: #fafbfb;
     text-align: justify;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
 }
 
-
-/* Seletores universais */ 
+/* Seletores universais */
 h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 30px;
@@ -48,6 +53,7 @@ img {
     display: block;
     margin: auto;
 }
+
 /* Estilos pagina de cadastro */
 form {
     width: 50%;
